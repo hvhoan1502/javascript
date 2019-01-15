@@ -4,12 +4,35 @@
     2/ String  ex: ('hello', 'hello'...)
     3/ Boolean ex: (true, false)
     4/ Array   ex: [ 1, 2, abc ...]
+        + Mảng  const a =  [1,5,3,6,7,3]
+          Vị trí            0 1 2 3 4 5
+        + Nếu là array thì để đếm tổng phần tử thí sử dụng .length (ex: a.length)
+        + Để lấy giá trị trong mảng theo vị trí thứ i thì sử dụng a[i]
+        + Muốn thêm 1 giá trị vào mảng thì sử dụng a.push(giá trị)
     5/ Object  ex: {
         ten: 'Trang',
         tuoi: 10
     }
+    
+    Các biểu thức tính toán:
+    + : Phép cộng
+    - : Phép trừ
+    * : Phép nhân
+    / : Phép chia
+    % : Phép tính lấy dư
+
+    Các biểu thức so sánh:
+    == : So sánh bằng
+    != : So sánh khác
+    >= : Lớn hơn hoặc bằng
+    <= : Bé hơn hoặc bằng
+    >  : Lớn hơn
+    <  : Bé hơn
 
     *****SO SÁNH******
+    === So sánh bằng
+    >: Lớn hớn
+    <: bé hơn
     if (điều kiện) {
         // TO_DO
     } else {
