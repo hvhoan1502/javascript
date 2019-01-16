@@ -75,6 +75,57 @@ console.log ('Mảng cần tìm là: ' + ketqua);
     Liệt kê tất cả số nguyên tố từ a đến b
 */
 
+// Cách 1
+const a = 50;
+const b =100;
 
+for (let i = a; i <= b; i++) {
+    let dem = 0;
+    for (let j = 1; j < i; j++) {
+        if (i %j === 0) {
+            dem ++;
+        }
+    }
+    if (dem === 2) {
+        console.log(i);
+    }
+
+}
+
+// Cách ngắn hơn
+for (let i = a; i <= b; i ++) {
+    let dem = 0;
+    for (let j = 2; j <= i/2; i++) {
+        if (i%j == 0) {
+            dem ++;
+        }
+    }
+    if (dem == 0) {
+        console.log(i);
+    }
+}
+
+// ********************************************
+/*
+    cho a = 10
+    Cho b = 100
+    Tìm ra số chính phương từ a den b
+*/
+// Cách 1
+const a = 10;
+const b = 100
+for (let i = a; i < b; i++) {
+    for (let j = 1; j < i; j++) {
+        if (j = Math.sqrt(i)) {
+            console.log(i);
+        }
+    }
+}
+
+// Cách ngắn ngọn
+
+for (let i = 4; i <= 10; i++) {
+    console.log(i*i);
+}
 
 

@@ -1,10 +1,15 @@
-const a = [1,8,9,10,6,12,3,5,2];
-let ketqua = [];
-for (let i = 0; i < a.length; i++) {
-    const value = a[i];
-    if (value > 5 && value % 2 === 0) {
-        ketqua.push(value)
-    }
-}
+const a = 50;
+const b =100;
 
-console.log ('Mảng cần tìm là: ' + ketqua);
+for (let i = a; i <= b; i++) {
+    let dem = 0;
+    for (let j = 1; j <= i; j++) {
+        if (i % j == 0) {
+            dem ++;
+        }
+    }
+    if (dem == 2) {
+        console.log(i);
+    }
+
+}
