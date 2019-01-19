@@ -45,3 +45,4 @@ for (let i = 0; i < mang.length; i++) {
 
 console.log('Mảng chẵn là: ' + mangchan);
 console.log('Mảng lẻ là: ' + mangle);
+
