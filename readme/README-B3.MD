@@ -93,3 +93,30 @@ ex: const a;
     )
 
 3. Mảng
+    - shift(): Xóa phần tử đầu tiên của mảng ex(
+        const a = [1, 2, 3, 4, 5, 6];
+        const kq = a.shift();
+        kết quả: kq = 1;
+                 a = [2, 3, 4, 5, 6];
+    )
+
+    -sort(): Sắp xếp mảng theo thứ tự alpha B ex(
+        const a = ['ds', 'dsds', 5, 2, 15, 'a'];
+        const kq = a.sort();
+        kết quả: kq = [ 15, 2, 5, 'a', 'ds', 'dsds' ]
+                 a = [ 15, 2, 5, 'a', 'ds', 'dsds' ]
+    )
+
+    - splice(vị trí bắt đầu, số phần tử xóa): Xóa phần tử trong mảng bắt đầu từ vị trí A và số phần tử tiếp theo
+    ex (
+        const a = ['ds', 'dsds', 5, 2, 15, 'a'];
+        const kq = a.splice(3, 2);
+        kết quả: kq = [ 2, 15 ];
+                 a = [ 'ds', 'dsds', 5, 'a' ];
+    )
+
+    - concat(array): Nối mảng. ex (
+        let a = ['ds', 'dsds', 5, 2, 15, 'a'];
+        a = a.concat(['f', 'g']);
+        kết quả: a = [ 'ds', 'dsds', 5, 2, 15, 'a', 'f', 'g' ];
+    )
