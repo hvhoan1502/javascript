@@ -120,3 +120,48 @@ ex: const a;
         a = a.concat(['f', 'g']);
         kết quả: a = [ 'ds', 'dsds', 5, 2, 15, 'a', 'f', 'g' ];
     )
+
+    - pop(): Xóa phần tử cuối cùng trong mảng và trả về nó
+        let a = [1, 2, 3, 5, 4];
+        const kq = a.pop();
+        kết quả: kq = 4;
+                 a = [1, 2, 3, 5];
+
+    -unshift(...items): Thêm phần tử vào đầu mảng ex (
+        let a = [1, 2, 3, 5, 4];
+        const kq = a.unshift(1,2,3);
+        kết quả: kq = 8;
+                 a = [1, 2, 3, 1, 2, 3, 5, 4];
+    ) 
+
+    - map(function): Ánh xạ phần tử trong mảng ex(
+        const a = [1, 2, 3, 5, 4];
+
+        const kq = a.map(item => {
+            if (item % 2 == 0) {
+                return item * 2;
+            }
+            return item;
+        });
+
+        kết quả kq = [1, 4, 3, 5, 8];
+    )
+
+4. Object
+    ex: 
+    const connguoi = {
+        ten: 'Hoàn',
+        tuoi: 10,
+        gioitinh: 'Nam',
+        kethon: false,
+        school: {
+            tentruong: 'HUTECH',
+            lop: '14DTHC03'
+        }
+    }
+    console.log(connguoi.school.lop);
+
+    - Gán thêm thuộc tính cho đối tượng
+    ex: Têndoituong.thuoctinh = giatri;
+    - Xóa thuộc tính cho 1 đối tượng
+    ex: delete tendoituong.thuoctinh;

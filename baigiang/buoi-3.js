@@ -44,10 +44,10 @@
 // console.log(5 + a);
 // console.log(parseInt('123'));
 // console.log(parseFloat('123.00012'));
-console.log(Math.ceil(1.562));
-console.log(Math.floor(1.5124));
-console.log(Math.round(1.5214));
-console.log(Math.ceil(Math.random() * 100));
+// console.log(Math.ceil(1.562));
+// console.log(Math.floor(1.5124));
+// console.log(Math.round(1.5214));
+// console.log(Math.ceil(Math.random() * 100));
 
 
 
@@ -57,6 +57,44 @@ console.log(Math.ceil(Math.random() * 100));
 // console.log(b + 2);
 // console.log(b.concat(' Hoàn'));
 
+
+/**
+ * ARRAY   
+ */
+const a = [1, 2, 3, 5, 4];
+console.log(a.map(item => item * item));
+
+
+/**
+ * ARRAY OBJECT
+ */
+// Ví dụ lấy tất cả khách hàng
+// KH có tên kh, id, địa chỉ
+
+const khachHang = [
+    {
+        id: 1,
+        ten: 'teo',
+        diaChi: 'abc'
+    },
+    {
+        id: 2,
+        ten: 'ty',
+        diaChi: 'fdfd'
+    },
+    {
+        id: 1,
+        ten: 'tun',
+        diaChi: 'gfgfg'
+    },
+    {
+        id: 1,
+        ten: 'mum mim',
+        diaChi: 'fđgg'
+    }
+]
+
+console.log(khachHang);
 
 
 
