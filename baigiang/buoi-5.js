@@ -53,3 +53,14 @@ class ConCun extends DongVat {
 
 const cunCon = new ConCun('Cun', 10, 'BanhMi');
 console.log(cunCon);
+
+
+/** STATIC */
+class ConNguoi {
+
+    static sayHello() {
+        return 'Hello'
+    }
+}
+
+console.log(ConNguoi.sayHello());
